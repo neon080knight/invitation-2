@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  @font-face {
+    font-family: "Ludvig Van Bethoveen";
+    src: url("../fonts/ludvig-van-bethoveen.woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .main {
+    position: relative;
+    text-align: center;
+    
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 300px;
+    padding: 150px 15px;
+
+    background-image: url("../images/bkground-mob.jpg");
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .inventation {
+    position: relative;
+    bottom: 40px;
+
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: "Ludvig Van Bethoveen";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 0.8;
+  }
+
+  .names {
+    position: relative;
+    bottom: 25px;
+
+    margin-top: 20px;
+
+    font-family: "Ludvig Van Bethoveen";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 58px;
+    line-height: 0.6;
+  }
+
+  .main .date {
+    position: relative;
+    top: 15px;
+
+    margin-top: 20px;
+
+    font-family: "Times New Roman";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+  }
+
+  .our-history {
+    padding: 50px 20px;
+
+    font-family: "Times New Roman";
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .story {
+    text-align: center;
+  }
+  
+  .interview {
+    margin-top: 20px;
+  }
+
+  .interview-name {
+    font-weight: 700;
+  }
+
+  .interview-text {
+    font-style: italic;
+  }
+
+  .inventation-text {
+    position: relative;
+    text-align: center;
+    
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 300px;
+    padding: 150px 45px;
+
+    background-image: url("../images/invent.jpg");
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    font-size: 18px;
+  }
+
+  .chapter-header {
+    position: relative;
+    bottom: 10px;
+
+    font-family: "Ludvig Van Bethoveen";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+  }
+
+  .timing-container {
+    padding: 20px 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    background-color: rgb(247, 248, 250);
+  }
+
+  .timing {
+    margin-top: 20px;
+  }
+
+  .timing .chapter-header {
+    text-align: center;
+  }
+
+  .wedding-timing {
+    display: flex;
+
+    font-size: 14px;
+  }
+
+  .wedding-timing:nth-child(n+2) {
+    margin-top: 20px;
+  }
+
+  .time {
+    text-align: left;
+  }
+
+  .description {
+    margin-left: 20px;
+
+    text-align: left;
+  }
+
+  .interview {
+    text-align: justify;
+  }
+
+  .photo {
+    margin-top: 20px;
+
+    text-align: center;
+  }
+
+  .our-photo {
+    width: 100%;
+    max-width: 329px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer .date {
+    font-family: "Times New Roman";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+  }
+
+  .footer-names {
+    margin-top: 10px;
+    font-style: normal;
+    line-height: 1;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Ludvig Van Bethoveen", "Arial", sans-serif;
+  }
